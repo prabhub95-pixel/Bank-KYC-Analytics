@@ -25,3 +25,59 @@ and branch performance across a simulated banking dataset of 5,000 customers.
 ---
 
 ## 📁 Project Structure 
+
+---
+
+## 📊 Dataset Overview
+
+- **Records:** 5,000 customers
+- **Date Range:** 2020 – 2024
+- **Branches:** 10 across Chennai, Mumbai, Bengaluru, Hyderabad, Delhi
+
+| Column               | Description                              |
+|----------------------|------------------------------------------|
+| customer_id          | Unique customer identifier               |
+| account_number       | Bank account number                      |
+| branch               | Branch name and city                     |
+| account_type         | Savings / Current / NRI / Corporate / FD |
+| kyc_status           | Completed / Pending / Rejected / Expired |
+| sla_breached         | Whether KYC crossed 7-day SLA (Yes/No)   |
+| risk_category        | Low / Medium / High / Very High          |
+| relationship_manager | Assigned RM name                         |
+
+---
+
+## 🔍 Key Analysis Areas
+
+1. KYC completion rate by branch
+2. SLA breach analysis by branch & account type
+3. High-risk customer segmentation
+4. Month-on-month onboarding trends
+5. Pending KYC ageing report
+6. Relationship Manager performance
+7. Risk vs SLA breach correlation
+
+---
+
+## 📈 Dashboard Preview
+
+*(Screenshots will be added after Power BI dashboard is complete)*
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository
+2. Run `data_generator.py` to generate the dataset
+3. Load `bank_kyc_dataset.csv` into SQLite using DB Browser
+4. Run SQL files in the `sql/` folder sequentially
+5. Open Power BI dashboard from the `dashboard/` folder
+
+---
+
+## 👤 Author
+
+**Prabhu Bhadrinarayanan**  
+Senior Data Analyst | SQL · Power BI · Tableau | Banking & KYC  
+📧 prabhub95@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/prabhu-b-37a288b0)
