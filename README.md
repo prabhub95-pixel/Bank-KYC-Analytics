@@ -24,7 +24,21 @@ and branch performance across a simulated banking dataset of 5,000 customers.
 
 ---
 
-## 📁 Project Structure 
+## 📁 Project Structure
+
+```
+bank-kyc-analytics/
+├── data_generator.py        # Python script to generate dataset
+├── sql/
+│   ├── 01_kyc_completion_analysis.sql
+│   ├── 02_sla_breach_analysis.sql
+│   ├── 03_risk_segmentation.sql
+│   ├── 04_branch_performance.sql
+│   └── 05_rm_performance.sql
+├── dashboard/
+│   └── screenshots/         # Power BI dashboard screenshots
+└── README.md
+```
 
 ---
 
