@@ -36,7 +36,7 @@ bank-kyc-analytics/
 │   ├── 04_branch_performance.sql
 │   └── 05_rm_performance.sql
 ├── dashboard/
-│   └── screenshots/         # Power BI dashboard screenshots
+│   └── 🔗 [View Live Dashboard] [https://public.tableau.com/app/profile/prabhu.b1145/viz/PJ_17829055060960/KYCComplianceDashboard?publish=yes]
 └── README.md
 ```
 
@@ -75,7 +75,8 @@ bank-kyc-analytics/
 
 ## 📈 Dashboard Preview
 
-*(Screenshots will be added after Power BI dashboard is complete)*
+
+
 
 ---
 
