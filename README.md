@@ -75,8 +75,7 @@ bank-kyc-analytics/
 
 ## 📈 Dashboard Preview
 
-![Dashboard Preview](dashboard/screenshots/dashboard_preview.png)
-
+![Dashboard Preview](dashboard_preview.png)
 
 ---
 
